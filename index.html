@@ -1,0 +1,325 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Social Website</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://kit.fontawesome.com/271b78add4.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <header>
+        <nav>
+            <div class="nav-left">
+                <a href="#"><img src="images/logo.png" alt="logo-image" class="logo"></a>
+                <ul>
+                    <li><img src="images/notification.png" alt="notification-image"></li>
+                    <li><img src="images/inbox.png" alt="message-image"></li>
+                    <li><img src="images/video.png" alt="video-image"></li>
+                </ul>
+            </div>
+
+            <div class="nav-right">
+                <input type="search" placeholder="Search" class="search-box">
+                <div class="mobile-nav-toggle" aria-controls="settings-menu" aria-expanded="false">
+                    <li><span><img src="images/profile-pic.png" alt="profile-pic" class="profile-pic">
+                            <div class="active"></div>
+                        </span>
+                    </li>
+                </div>
+
+            </div>
+
+            <div class="settings-menu" id="settings-menu" data-visible="false">
+
+                <div id="dark-btn" >
+                    <span></span>
+                </div>
+
+                <div class="user-info ">
+                    <img src="images/profile-pic.png" alt="profile-pic">
+                    <div>
+                        <h4>John Nicholson</h4>
+                        <p><a href="profile page.html">See your profile</a></p>
+                    </div>
+                </div>
+
+                <div class="user-info feedback">
+                    <img src="images/feedback.png" alt="profile-pic">
+                    <div>
+                        <h4>Give Feedback</h4>
+                        <p><a href="#">Help us improve the new design</a></p>
+                    </div>
+                </div>
+
+                <ol>
+                    <div class="settings-option">
+                        <li><span><img src="images/setting.png" alt="news-imgage"></span><a href="#">Settings &
+                                privacy</a></li>
+                        <img src="images/arrow.png" alt="settings" class="settings-arrow">
+                    </div>
+
+                    <div class="settings-option">
+                        <li><span><img src="images/help.png" alt="friends-image"></span><a href="#">help & support</a>
+                        </li>
+                        <img src="images/arrow.png" alt="settings" class="settings-arrow">
+                    </div>
+
+                    <div class="settings-option">
+                        <li><span><img src="images/display.png" alt="group-image"></span><a href="#">display &
+                                accessibility</a></li>
+                        <img src="images/arrow.png" alt="settings" class="settings-arrow">
+                    </div>
+
+                    <div class="settings-option">
+                        <li><span><img src="images/logout.png" alt="watch-image"></span><a href="#">Logout</a></li>
+                        <img src="images/arrow.png" alt="settings" class="settings-arrow">
+                    </div>
+
+                </ol>
+            </div>
+        </nav>
+    </header>
+
+    <div class="container">
+        <aside class="left-side-bar">
+            <ol>
+                <li><span><img src="images/news.png" alt="news-imgage"></span>Latest News</li>
+                <li><span><img src="images/friends.png" alt="friends-image"></span>Friends</li>
+                <li><span><img src="images/group.png" alt="group-image"></span>Group</li>
+                <li><span><img src="images/marketplace.png" alt="marketplace-img"></span>Marketplace</li>
+                <li><span><img src="images/watch.png" alt="watch-image"></span>Watch</li>
+                <li><a href="#" class="see-more">See more</a></li>
+            </ol>
+
+            <hr>
+
+            <ol class="shortcuts">
+                <li>Your shortcuts</li>
+                <li><span><img src="images/shortcut-1.png" alt="shortcut-1-image"></span>web developer</li>
+                <li><span><img src="images/shortcut-2.png" alt="shortcut-2-image"></span>web design course</li>
+                <li><span><img src="images/shortcut-3.png" alt="shortcut-3-image"></span>full stack development</li>
+                <li><span><img src="images/shortcut-4.png" alt="shortcut-4-image"></span>website experts</li>
+            </ol>
+
+        </aside>
+
+        <main>
+            <section class="user-story">
+                <div class="story status-1">
+                    <img src="images/upload.png" alt="upload-image" class="upload-icon">
+                    <p>Post Story</p>
+                </div>
+                <div class="story status-2">
+                    <img src="images/member-1.png" alt="" class="user-story-floating-image">
+                    <p>Alisson</p>
+                </div>
+                <div class="story status-3">
+                    <img src="images/member-2.png" alt="" class="user-story-floating-image">
+                    <p>Jackson</p>
+                </div>
+                <div class="story status-4">
+                    <img src="images/member-3.png" alt="" class="user-story-floating-image">
+                    <p>Samana</p>
+                </div>
+                <div class="story status-5">
+                    <img src="images/member-4.png" alt="" class="user-story-floating-image">
+                    <p>John Doe</p>
+                </div>
+            </section>
+
+            <section class="user-timeline">
+                <div class="user-info">
+                    <img src="images/profile-pic.png" alt="profile-pic">
+                    <div>
+                        <h4>John Nicholson</h4>
+                        <p>Public <i class="fa-solid fa-caret-down"></i></p>
+                    </div>
+
+                </div>
+                <div class="user-thoughts">
+                    <input type="text" placeholder="What's on your mind, John?">
+
+                    <ol class="timeline-options">
+                        <li><img src="images/live-video.png" alt="live-video-image"><span>Live-video</span></li>
+                        <li><img src="images/photo.png" alt="photo-image"><span>Photo/Video</span></li>
+                        <li><img src="images/feeling.png" alt="emotion"><span>Feeling/Activity</span></li>
+                    </ol>
+                </div>
+            </section>
+
+            <section class="website-feeds">
+                <div class="feeds">
+                    <div class="user-info-and-icon">
+                        <div class="user-info">
+                            <img src="images/profile-pic.png" alt="profile-pic">
+                            <div>
+                                <h4>John Nicholson</h4>
+                                <p>June 21 2024, 13:40pm</p>
+                            </div>
+                        </div>
+                        <a href="#"><i class="fas fa-ellipsis-v"></i></a>
+                    </div>
+
+                    <p>Suscribe @Easy Tutorials to watch more videos on website development and UI design <a
+                            href="#">#EasyTutorials</a> <a href="#">#YouTubeChannel</a></p>
+
+                    <img src="images/feed-image-1.png" alt="feed-image-1" class="feed-images">
+
+                    <div class="users-opinion">
+                        <ol class="reactions">
+                            <li><img src="images/like-blue.png" alt="live-video-image"><span>120</span></li>
+                            <li><img src="images/comments.png" alt="photo-image"><span>45</span></li>
+                            <li><img src="images/share.png" alt="emotion"><span>20</span></li>
+                        </ol>
+
+                        <div class="rections-right-side">
+                            <img src="images/profile-pic.png" alt="profile-pic" class="profile-pic">
+                            <i class="fa-solid fa-caret-down"></i>
+                        </div>
+                    </div>
+
+                </div>
+
+                <div class="feeds">
+                    <div class="user-info-and-icon">
+                        <div class="user-info">
+                            <img src="images/profile-pic.png" alt="profile-pic">
+                            <div>
+                                <h4>John Nicholson</h4>
+                                <p>June 21 2024, 13:40pm</p>
+                            </div>
+                        </div>
+                        <a href="#"><i class="fas fa-ellipsis-v"></i></a>
+                    </div>
+                    <p>Suscribe @Easy Tutorials to watch more videos on website development and UI design <a
+                            href="#">#EasyTutorials</a> <a href="#">#YouTubeChannel</a></p>
+
+                    <img src="images/feed-image-2.png" alt="feed-image-1" class="feed-images">
+
+                    <div class="users-opinion">
+                        <ol class="reactions">
+                            <li><img src="images/like-blue.png" alt="live-video-image"><span>120</span></li>
+                            <li><img src="images/comments.png" alt="photo-image"><span>45</span></li>
+                            <li><img src="images/share.png" alt="emotion"><span>20</span></li>
+                        </ol>
+
+                        <div class="rections-right-side">
+                            <img src="images/profile-pic.png" alt="profile-pic" class="profile-pic">
+                            <i class="fa-solid fa-caret-down"></i>
+                        </div>
+                    </div>
+
+                </div>
+
+                <div class="feeds">
+                    <div class="user-info-and-icon">
+                        <div class="user-info">
+                            <img src="images/profile-pic.png" alt="profile-pic">
+                            <div>
+                                <h4>John Nicholson</h4>
+                                <p>June 21 2024, 13:40pm</p>
+                            </div>
+                        </div>
+                        <a href="#"><i class="fas fa-ellipsis-v"></i></a>
+                    </div>
+                    <p>Suscribe @Easy Tutorials to watch more videos on website development and UI design <a
+                            href="#">#EasyTutorials</a> <a href="#">#YouTubeChannel</a></p>
+
+                    <img src="images/feed-image-3.png" alt="feed-image-1" class="feed-images">
+
+                    <div class="users-opinion">
+                        <ol class="reactions">
+                            <li><img src="images/like-blue.png" alt="live-video-image"><span>120</span></li>
+                            <li><img src="images/comments.png" alt="photo-image"><span>45</span></li>
+                            <li><img src="images/share.png" alt="emotion"><span>20</span></li>
+                        </ol>
+
+                        <div class="rections-right-side">
+                            <img src="images/profile-pic.png" alt="profile-pic" class="profile-pic">
+                            <i class="fa-solid fa-caret-down"></i>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <button class="load-more-button">Load more</button>
+        </main>
+
+        <aside class="right-side-bar">
+            <section class="events">
+                <div class="events-header">
+                    <p>Events</p>
+                    <a href="#">See All</a>
+                </div>
+                <div class="upcoming-events">
+                    <div class="event-date event-date1">
+                        <p>18</p>
+                        <button>March</button>
+                    </div>
+                    <div class="event-info">
+                        <h4>Social Media</h4>
+                        <p><i class="fa-solid fa-location-dot"></i>Wilson Tech Park</p>
+                        <a href="#">More info</a>
+                    </div>
+                </div>
+
+                <div class="upcoming-events">
+                    <div class="event-date event-date2">
+                        <p>22</p>
+                        <button>June</button>
+                    </div>
+                    <div class="event-info">
+                        <h4>Mobile Marketing</h4>
+                        <p><i class="fa-solid fa-location-dot"></i>Wilson Tech Park</p>
+                        <a href="#">More info</a>
+                    </div>
+                </div>
+            </section>
+
+            <section class="advertisement">
+                <div class="advertisement-header">
+                    <p>Advertisement</p>
+                    <a href="#">See All</a>
+                </div>
+                <img src="images/advertisement.png" alt="advertisement-image" class="advertisement-img">
+            </section>
+
+            <section class="conversation">
+                <div class="conversation-header">
+                    <p>Conversation</p>
+                    <a href="#">See All</a>
+                </div>
+
+                <ol>
+                    <li>
+                        <span><img src="images/member-1.png" alt="member-imgage">
+                            <div class="online-indicator"></div>
+                        </span>Latest News
+                    </li>
+                    <li>
+                        <span><img src="images/member-2.png" alt="member-image">
+                            <div class="online-indicator"></div>
+                        </span>Friends
+                    </li>
+                    <li><span><img src="images/member-3.png" alt="member-image">
+                            <div class="online-indicator"></div>
+                        </span>Group</li>
+                </ol>
+            </section>
+
+
+        </aside>
+
+
+    </div>
+
+    <footer>
+        <p>Copywright 2021-Easy Tutorials YouTube Channel</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>

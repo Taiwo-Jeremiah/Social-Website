@@ -1,0 +1,293 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Social Website / Profile Page</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://kit.fontawesome.com/271b78add4.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <header>
+        <nav>
+            <div class="nav-left">
+                <a href="index.html"><img src="images/logo.png" alt="logo-image" class="logo"></a>
+                <ul>
+                    <li><img src="images/notification.png" alt="notification-image"></li>
+                    <li><img src="images/inbox.png" alt="message-image"></li>
+                    <li><img src="images/video.png" alt="video-image"></li>
+                </ul>
+            </div>
+
+            <div class="nav-right">
+                <input type="search" placeholder="Search" class="search-box">
+                <div class="mobile-nav-toggle" aria-controls="settings-menu" aria-expanded="false">
+                    <li><span><img src="images/profile-pic.png" alt="profile-pic" class="profile-pic">
+                            <div class="active"></div>
+                        </span>
+                    </li>
+                </div>
+
+            </div>
+
+            <div class="settings-menu" id="settings-menu" data-visible="false">
+
+                <div id="dark-btn">
+                    <span></span>
+                </div>
+
+                <div class="user-info ">
+                    <img src="images/profile-pic.png" alt="profile-pic">
+                    <div>
+                        <h4>John Nicholson</h4>
+                        <p><a href="profile page.html">See your profile</a></p>
+                    </div>
+                </div>
+
+                <div class="user-info feedback">
+                    <img src="images/feedback.png" alt="profile-pic">
+                    <div>
+                        <h4>Give Feedback</h4>
+                        <p><a href="#">Help us improve the new design</a></p>
+                    </div>
+                </div>
+
+                <ol>
+                    <div class="settings-option">
+                        <li><span><img src="images/setting.png" alt="news-imgage"></span><a href="#">Settings &
+                                privacy</a></li>
+                        <img src="images/arrow.png" alt="settings" class="settings-arrow">
+                    </div>
+
+                    <div class="settings-option">
+                        <li><span><img src="images/help.png" alt="friends-image"></span><a href="#">help & support</a>
+                        </li>
+                        <img src="images/arrow.png" alt="settings" class="settings-arrow">
+                    </div>
+
+                    <div class="settings-option">
+                        <li><span><img src="images/display.png" alt="group-image"></span><a href="#">display &
+                                accessibility</a></li>
+                        <img src="images/arrow.png" alt="settings" class="settings-arrow">
+                    </div>
+
+                    <div class="settings-option">
+                        <li><span><img src="images/logout.png" alt="watch-image"></span><a href="#">Logout</a></li>
+                        <img src="images/arrow.png" alt="settings" class="settings-arrow">
+                    </div>
+
+                </ol>
+            </div>
+        </nav>
+    </header>
+
+    <div class="container profile-page-container">
+        <img src="images/cover.png" alt="cover-image" class="cover-image">
+
+        <div class="user-connections">
+            <div class="user-friends">
+                <img src="images/profile.png" alt="profile-image">
+                <div>
+                    <h3>Jack Nicholson</h3>
+                    <p>120 Friends - 20 mutual</p>
+                    <ol>
+                        <li><img src="images/member-1.png" alt="menber"></li>
+                        <li><img src="images/member-2.png" alt="menber"></li>
+                        <li><img src="images/member-3.png" alt="menber"></li>
+                        <li><img src="images/member-4.png" alt="menber"></li>
+                    </ol>
+                </div>
+            </div>
+            <div class="reach-out">
+                <div class="friends-and-message-btn">
+                    <button class="friends-btn"><img src="images/add-friends.png" alt="add-friends">
+                        <span>Friends</span></button>
+                    <button class="message-btn"><img src="images/message.png" alt="message">
+                        <span>Message</span></button>
+                </div>
+                <div>
+                    <button class="more-btn"><img src="images/more.png" alt="more"></button>
+                </div>
+            </div>
+        </div>
+
+        <div class="profile-page-content">
+            <aside>
+                <div class="intro">
+                    <h3>Intro</h3>
+                    <p>Believe in yourself and you can do unbelievable things <img src="images/feeling.png"
+                            alt="feeling"></p>
+                    <ol>
+                        <li><img src="images/profile-job.png" alt=""><span>Director at 99media Ltd</span></li>
+                        <li><img src="images/profile-study.png" alt=""><span>Studied MBA at Amity University</span></li>
+                        <li><img src="images/profile-study.png" alt=""><span>Went to DPS Delhi</span></li>
+                        <li><img src="images/profile-home.png" alt="">Lives in Bangalore, India<span></span></li>
+                        <li><img src="images/profile-location.png" alt="">From Bangalore, India<span></span></li>
+                    </ol>
+                </div>
+
+                <div class="mobile-uploads">
+                    <h3>Photos <a href="#">All Photos</a></h3>
+                    <div>
+                        <img src="images/photo1.png" alt=""> <img src="images/photo2.png" alt=""><img
+                            src="images/photo3.png" alt=""><img src="images/photo4.png" alt=""><img
+                            src="images/photo5.png" alt=""><img src="images/photo6.png" alt="">
+                    </div>
+
+                </div>
+
+                <div class="friends-uploads">
+                    <div class="friends">
+                        <div>
+                            <h3>Friends </h3>
+                            <p>120 (10 mutual)</p>
+                        </div>
+                        <a href="#">All Friends</a>
+                    </div>
+
+                    <ol class="friends-images">
+                        <li><img src="images/member-1.png" alt="friends"><span>Joseph N</span></li>
+                        <li><img src="images/member-2.png" alt="friends"><span>Natham M</span></li>
+                        <li><img src="images/member-3.png" alt="friends"><span>George D</span></li>
+                        <li><img src="images/member-4.png" alt="friends"><span>Francis L</span></li>
+                        <li><img src="images/member-5.png" alt="friends"><span>Anthony E</span></li>
+                        <li><img src="images/member-6.png" alt="friends"><span>Michael A</span></li>
+                        <li><img src="images/member-7.png" alt="friends"><span>Edward M</span></li>
+                        <li><img src="images/member-8.png" alt="friends"><span>Brandon C</span></li>
+                        <li><img src="images/member-9.png" alt="friends"><span>James Doe</span></li>
+                    </ol>
+                </div>
+
+            </aside>
+
+            <main>
+                <section class="user-timeline ut-profile-page">
+                    <div class="user-info">
+                        <img src="images/profile-pic.png" alt="profile-pic">
+                        <div>
+                            <h4>John Nicholson</h4>
+                            <p>Public <i class="fa-solid fa-caret-down"></i></p>
+                        </div>
+
+                    </div>
+                    <div class="user-thoughts">
+                        <input type="text" placeholder="What's on your mind, John?">
+
+                        <ol class="timeline-options">
+                            <li><img src="images/live-video.png" alt="live-video-image"><span>Live-video</span></li>
+                            <li><img src="images/photo.png" alt="photo-image"><span>Photo/Video</span></li>
+                            <li><img src="images/feeling.png" alt="emotion"><span>Feeling/Activity</span></li>
+                        </ol>
+                    </div>
+                </section>
+
+                <section class="website-feeds">
+                    <div class="feeds">
+                        <div class="user-info-and-icon">
+                            <div class="user-info">
+                                <img src="images/profile-pic.png" alt="profile-pic">
+                                <div>
+                                    <h4>John Nicholson</h4>
+                                    <p>June 21 2024, 13:40pm</p>
+                                </div>
+                            </div>
+                            <a href="#"><i class="fas fa-ellipsis-v"></i></a>
+                        </div>
+
+                        <p>Suscribe @Easy Tutorials to watch more videos on website development and UI design <a
+                                href="#">#EasyTutorials</a> <a href="#">#YouTubeChannel</a></p>
+
+                        <img src="images/feed-image-1.png" alt="feed-image-1" class="feed-images">
+
+                        <div class="users-opinion">
+                            <ol class="reactions">
+                                <li><img src="images/like-blue.png" alt="live-video-image"><span>120</span></li>
+                                <li><img src="images/comments.png" alt="photo-image"><span>45</span></li>
+                                <li><img src="images/share.png" alt="emotion"><span>20</span></li>
+                            </ol>
+
+                            <div class="rections-right-side">
+                                <img src="images/profile-pic.png" alt="profile-pic" class="profile-pic">
+                                <i class="fa-solid fa-caret-down"></i>
+                            </div>
+                        </div>
+
+                    </div>
+
+                    <div class="feeds">
+                        <div class="user-info-and-icon">
+                            <div class="user-info">
+                                <img src="images/profile-pic.png" alt="profile-pic">
+                                <div>
+                                    <h4>John Nicholson</h4>
+                                    <p>June 21 2024, 13:40pm</p>
+                                </div>
+                            </div>
+                            <a href="#"><i class="fas fa-ellipsis-v"></i></a>
+                        </div>
+                        <p>Suscribe @Easy Tutorials to watch more videos on website development and UI design <a
+                                href="#">#EasyTutorials</a> <a href="#">#YouTubeChannel</a></p>
+
+                        <img src="images/feed-image-2.png" alt="feed-image-1" class="feed-images">
+
+                        <div class="users-opinion">
+                            <ol class="reactions">
+                                <li><img src="images/like-blue.png" alt="live-video-image"><span>120</span></li>
+                                <li><img src="images/comments.png" alt="photo-image"><span>45</span></li>
+                                <li><img src="images/share.png" alt="emotion"><span>20</span></li>
+                            </ol>
+
+                            <div class="rections-right-side">
+                                <img src="images/profile-pic.png" alt="profile-pic" class="profile-pic">
+                                <i class="fa-solid fa-caret-down"></i>
+                            </div>
+                        </div>
+
+                    </div>
+
+                    <div class="feeds">
+                        <div class="user-info-and-icon">
+                            <div class="user-info">
+                                <img src="images/profile-pic.png" alt="profile-pic">
+                                <div>
+                                    <h4>John Nicholson</h4>
+                                    <p>June 21 2024, 13:40pm</p>
+                                </div>
+                            </div>
+                            <a href="#"><i class="fas fa-ellipsis-v"></i></a>
+                        </div>
+                        <p>Suscribe @Easy Tutorials to watch more videos on website development and UI design <a
+                                href="#">#EasyTutorials</a> <a href="#">#YouTubeChannel</a></p>
+
+                        <img src="images/feed-image-3.png" alt="feed-image-1" class="feed-images">
+
+                        <div class="users-opinion">
+                            <ol class="reactions">
+                                <li><img src="images/like-blue.png" alt="live-video-image"><span>120</span></li>
+                                <li><img src="images/comments.png" alt="photo-image"><span>45</span></li>
+                                <li><img src="images/share.png" alt="emotion"><span>20</span></li>
+                            </ol>
+
+                            <div class="rections-right-side">
+                                <img src="images/profile-pic.png" alt="profile-pic" class="profile-pic">
+                                <i class="fa-solid fa-caret-down"></i>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+                <button class="load-more-button">Load more</button>
+            </main>
+        </div>
+
+    </div>
+
+    <footer>
+        <p>Copywright 2021-Easy Tutorials YouTube Channel</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
